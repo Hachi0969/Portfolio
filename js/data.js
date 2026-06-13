@@ -21,7 +21,7 @@ window.PORTFOLIO_DATA = {
     { value: "Bangkok", label: "Current base" }
   ],
   filters: ["All", "Machine Learning", "Data Visualization", "IoT & Hardware"],
-  techStack: ["Python", "SQL", "Pandas", "Matplotlib", "Seaborn", "Streamlit", "Arduino", "Tinkercad"],
+  techStack: ["Python", "SQL", "Pandas", "Matplotlib", "Seaborn", "PyTorch", "Streamlit", "Arduino", "Tinkercad"],
   icebreakers: [
     "When I want to step away from code, I play and analyze games on Chess.com to sharpen my problem-solving and pattern recognition skills."
   ],
