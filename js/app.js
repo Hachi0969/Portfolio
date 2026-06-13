@@ -173,6 +173,7 @@ function renderContact() {
     })
   );
 
+  qs("#contact-email").textContent = `Manual email: ${data.profile.email}`;
   qs("#footer-copy").textContent = `© ${new Date().getFullYear()} ${data.profile.name}. Built with HTML, Tailwind CSS, and vanilla JavaScript.`;
 }
 
