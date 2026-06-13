@@ -9,8 +9,8 @@ window.PORTFOLIO_DATA = {
     facebook: "https://www.facebook.com/hachi0969",
     instagram: "https://www.instagram.com/hachi0969/",
     line: "https://line.me/ti/p/amPFcKh91h",
-    summary: "I am a university student exploring the world of data and artificial intelligence. Rather than just analyzing data, I am most passionate about training models, experimenting with AI, and building practical AI applications. Right now, my goal is to keep learning, keep coding, and discover which path in the AI and Data Science field fits me best.",
-    education: "Digital Technology Innovation student at Kasem Bundit University (Entering 3rd year).",
+    summary: "I am a third year university student exploring the world of data and artificial intelligence. Rather than just analyzing data, I am most passionate about training models, experimenting with AI, and building practical AI applications. Right now, my goal is to keep learning, keep coding, and discover which path in the AI and Data Science field fits me best.",
+    education: "Third Year Digital Technology Innovation student at Kasem Bundit University.",
     careerPath: "I am continuously learning the fundamentals of data science. While I understand data analysis, my real interest lies in the engineering side—training models, exploring AI systems, and integrating hardware.",
     photo: "assets/profile.jpg",
     photoInitials: "MST"
