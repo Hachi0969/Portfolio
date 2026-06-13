@@ -155,7 +155,10 @@ function renderContact() {
   const actions = [
     { label: "Email Me", href: `mailto:${data.profile.email}`, style: "btn btn-primary" },
     { label: "GitHub", href: data.profile.github, style: "btn btn-secondary" },
-    { label: "LinkedIn", href: data.profile.linkedin, style: "btn btn-secondary" }
+    { label: "LinkedIn", href: data.profile.linkedin, style: "btn btn-secondary" },
+    { label: "Facebook", href: data.profile.facebook, style: "btn btn-secondary" },
+    { label: "Instagram", href: data.profile.instagram, style: "btn btn-secondary" },
+    { label: "LINE", href: data.profile.line, style: "btn btn-secondary" }
   ];
 
   qs("#contact-actions").replaceChildren(

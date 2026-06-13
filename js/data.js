@@ -1,14 +1,17 @@
 window.PORTFOLIO_DATA = {
   profile: {
     name: "Min Swe Thein",
-    headline: "Digital Technology Innovation Student & Aspiring AI Engineer",
+    headline: "Digital Technology Innovation Student | Focused on Machine Learning & Data Science",
     location: "Bangkok, Thailand",
     email: "minswethein0969@gmail.com",
     github: "https://github.com/Hachi0969",
     linkedin: "https://www.linkedin.com/in/min-swe-thein-b1b810329/",
-    summary: "I am building a practical AI engineering roadmap through data science foundations, Python projects, and hands-on technology experiments. My goal is to grow into global AI Engineering roles while creating useful, understandable tools.",
-    education: "Digital Technology Innovation student at Kasem Bundit University. Started in June 2024 and entering 3rd year.",
-    careerPath: "Completed data science foundations and currently working toward AI engineering through projects in prediction, visualization, automation, and hardware-assisted systems.",
+    facebook: "https://www.facebook.com/hachi0969",
+    instagram: "https://www.instagram.com/hachi0969/",
+    line: "https://line.me/ti/p/amPFcKh91h",
+    summary: "I am a university student exploring the world of data and artificial intelligence. Rather than just analyzing data, I am most passionate about training models, experimenting with AI, and building practical AI applications. Right now, my goal is to keep learning, keep coding, and discover which path in the AI and Data Science field fits me best.",
+    education: "Digital Technology Innovation student at Kasem Bundit University (Entering 3rd year).",
+    careerPath: "I am continuously learning the fundamentals of data science. While I understand data analysis, my real interest lies in the engineering side—training models, exploring AI systems, and integrating hardware.",
     photo: "assets/profile.jpg",
     photoInitials: "MST"
   },
@@ -20,8 +23,7 @@ window.PORTFOLIO_DATA = {
   filters: ["All", "Machine Learning", "Data Visualization", "IoT & Hardware"],
   techStack: ["Python", "SQL", "Pandas", "Matplotlib", "Seaborn", "Streamlit", "Arduino", "Tinkercad"],
   icebreakers: [
-    "I analyze games on Chess.com to improve decision-making and pattern recognition.",
-    "I listen to bedroom pop artists like wave to earth while studying and building projects."
+    "When I want to step away from code, I play and analyze games on Chess.com to sharpen my problem-solving and pattern recognition skills."
   ],
   projects: [
     {
