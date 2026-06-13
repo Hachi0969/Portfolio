@@ -167,15 +167,31 @@ body {
   justify-content: center;
 }
 
+.profile-photo-wrap::before {
+  background: #e0f2fe;
+  border-radius: 999px;
+  content: "";
+  inset: 0.875rem;
+  position: absolute;
+  transform: translate(0.875rem, 0.875rem);
+}
+
+.profile-photo {
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 22px 55px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(14, 165, 233, 0.16);
+  overflow: hidden;
+}
+
 .profile-image {
-  border: 1px solid #dbeafe;
   border-radius: 999px;
   display: block;
-  height: 78%;
+  height: 100%;
   object-fit: cover;
   object-position: center 35%;
   position: relative;
-  width: 78%;
+  width: 100%;
   z-index: 1;
 }
 
@@ -187,16 +203,15 @@ body {
 .profile-fallback {
   align-items: center;
   background: #f8fafc;
-  border: 1px solid #e2e8f0;
   border-radius: 999px;
   color: #7dd3fc;
   display: none;
   font-size: 3rem;
   font-weight: 800;
-  height: 78%;
+  height: 100%;
   justify-content: center;
   position: absolute;
-  width: 78%;
+  width: 100%;
 }
 
 .profile-image[src=""] + .profile-fallback,
